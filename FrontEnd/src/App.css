@@ -1,0 +1,257 @@
+.BoxWhite, .PageCadastro {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px 0 #28293C;
+  padding: 10px 15px 10px 15px;
+  margin: 4% auto;
+}
+
+.Apple {
+  width: 9vh;
+  height: 10vh;
+  margin: 5px 150px 0px 150px;
+ 
+}
+
+.text {
+  font-size: 18px;
+  font-weight: regular;
+  color: #5A5773;
+  align-self: auto;
+}
+
+.Login {
+  font-size: 13px;
+  color: #5A5773;
+  font-weight: medium;
+  margin: 10px 64px 5px 5px;
+}
+
+.EmailSenha{
+  width: 100%;
+  max-width: 55vh;
+  min-width: 7vh;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #737088;
+  background-repeat: no-repeat; 
+  outline: none;
+  background-position: 8px;
+  padding-left: 28px;
+  float: left;
+}
+
+#EmailLogin, #EmailCadastro, #emailRecSenha {
+  background-image: url('./images/envelope.png');
+  background-size: 14px;
+} 
+
+#SenhaLogin, #SenhaLoginIgual, #SenhaNova, #ConfirmarSenha {
+  margin-bottom: 10px;
+  background-image: url('./images/unlock-alt.png');
+  background-size: 12px;
+}
+
+.EsqSenha, .Click{
+  font-size: 11px;
+  color: #5A5773;
+  margin-left: 8px;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 402px){
+  .Login{
+    font-size: 11px;
+    margin: 10px 11px 4px 2px;
+  }
+
+ .EsqSenha, .Click {
+    font-size: 9px;
+    margin: 11px 2px 4px 0px;
+ }
+}
+
+#btn, #btnCadastro, #btnEnviarEmail, #btnConfSenha, #btnValidar, #btnContinuarSenha, #btnImage {
+  width: 100%;
+  min-width: 7vh;
+  max-width: 60vh;
+  height: 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Inter;
+  font-weight: medium;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#btnEntrar {
+  width: 390px;
+  color: #fff;
+}
+
+@media (max-width: 290px){
+  #btn{
+    font-size: 12px;
+  }
+}
+
+.ou{
+  align-items: center;
+  font-weight: bold;
+}
+
+#msg{
+  margin-top: -10px;
+}
+
+#alert{
+  width: 335px;
+  height: 35px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+#msg{
+  margin-left: 108px;
+  margin-top: -35px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 50;
+}
+
+#cadastro{
+  color: black;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 7px;
+  margin-top: 25px;
+}
+
+#cadastroNome{
+  background-image: url('./images/nome.png');
+  background-size: 12px;
+}
+
+#cadastroCPF{
+  background-image: url('./images/cpf.png');
+  background-size: 12px;
+}
+
+#telefone{
+  background-image: url('./images/telefone.png');
+  background-size: 12px;
+}
+
+#voltar, #continuar, #inicio{
+  color: black;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 276px){
+  #dados{
+    font-size: 14px;
+  }
+}
+
+.Aviso{
+  color: red;
+  margin: 5px;
+}
+
+#avisoEmail, #avisoNome, #avisoCPF, #avisoSenhaOk, #avisoTelefone, #msgCodigo, #parteCodigo, #parteSenha, #alertCodigo, #alertCadastro, #btnContinuarSenha, #alertNovaSenha, #parteNovaSenha{
+  display: none;
+}
+
+#avisoSenha, #avisoSenhaIgual, #avisoSenhaNum{
+  display: none;
+  margin-top: -5px;
+}
+
+#avisoNome, #avisoCPF, #avisoEmail {
+  margin-bottom: -5px;
+}
+
+.upload{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid  #737088;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#imgPerfil {
+  margin-left: 25px;
+}
+
+#alertCadastro{
+  width: 360px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#btnEnviarEmail, #btnValidar, #btnContinuarSenha{
+  background-color: black;
+  margin-top: 10px;
+}
+
+#inputCodigo{
+  background-image: url('./images/key.png');
+  background-size: 14px;
+}
+
+#alertEmail , #alertNovaSenha{
+  display: none;
+  width: 360px;
+  height: 35px;
+  align-items: center;
+}
+
+#msgCodigo{
+  margin-top: -2px;;
+}
+
+#alertCodigo{
+  width: 360px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#inputImage{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid  #737088;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent
+}
+
+#inputImagemFormat{
+  width: 120px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+#emailImage{
+  margin-bottom: 20px;
+}
+
+#btnImage{
+  margin-top: 10px;
+}

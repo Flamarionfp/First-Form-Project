@@ -1,0 +1,10 @@
+body {
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  font-family: Inter;
+  color: #666;
+  font-size: 12px;
+}
+
